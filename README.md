@@ -2,6 +2,10 @@
 
 This repository contains a Docker-based OCR (Optical Character Recognition) model that can process images and extract text in multiple languages.
 
+## Download Checkpoints
+
+- Checkpoints can be downloaded from this url https://lipikar.cse.iitd.ac.in/model/
+
 ## Prerequisites
 
 - Docker installed on your system
