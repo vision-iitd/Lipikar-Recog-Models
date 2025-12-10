@@ -11,13 +11,11 @@ import traceback
 import yaml
 from pathlib import Path
 
-# Placeholder imports - replace with your actual imports
 try:
     from modeldata.data.module import SceneTextDataModule
     from modeldata.models.utils import load_from_checkpoint
 except ImportError:
     print("Warning: modeldata modules not found. Please ensure they are installed or adjust the imports.")
-    # You might need to add the path to your modeldata modules
     import sys
     sys.path.append(os.path.join(os.path.dirname(__file__), 'modeldata'))
     from data.module import SceneTextDataModule
@@ -291,6 +289,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
 
 
 

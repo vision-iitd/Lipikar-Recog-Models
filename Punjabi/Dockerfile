@@ -1,5 +1,4 @@
 
-
 # Use NVIDIA CUDA base image with Python
 FROM nvidia/cuda:11.8.0-devel-ubuntu20.04
 
@@ -49,4 +48,5 @@ ENTRYPOINT ["python3", "infer.py"]
 
 # Default command (can be overridden)
 CMD ["--help"]
+
 
